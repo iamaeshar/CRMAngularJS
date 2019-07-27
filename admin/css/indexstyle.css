@@ -1,0 +1,11 @@
+.main-body{
+	width: 400px;
+	margin: 0px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background-color: #fff;
+	background-color: #72716c;
+	padding: 10px 10px 20px 10px;
+}

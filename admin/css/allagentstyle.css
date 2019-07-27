@@ -1,0 +1,16 @@
+.main-body{
+	width: 60%;
+}
+.main-body-content{
+	background-color: #fff;
+    color: #444040;
+    padding: 20px;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+.user-box{
+	padding: 15px 0px 10px 0px;
+    	box-shadow: 5px 5px 10px #d4d0d0;
+	border: 1px solid grey;
+	margin-top: 15px;
+}

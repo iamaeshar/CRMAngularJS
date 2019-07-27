@@ -1,0 +1,41 @@
+.space{
+	height: 20px;
+	width: 100%;
+}
+.error{
+	color: red;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image:url('../image/download.jpg') ;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:cover; 
+}
+.main-container{
+	color: #fff;
+}
+.main-body{
+	width: 50%;
+	margin: 0 auto;
+	background-color: #fff;
+	background-color: #72716c;
+	padding: 10px 15px 20px 15px;
+}
+.main-body-header{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.form-body{
+	padding: 20px;
+	background-color: #fff;
+}
+.form-header{
+	color: #444040;
+	padding-bottom: 10px; 
+}
+.sub-btn button{
+	background-color: #72716c;
+	color: #fff;
+}

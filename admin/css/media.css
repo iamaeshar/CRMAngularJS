@@ -1,0 +1,10 @@
+@media(min-width: 500px) and (max-width: 600px){
+	.main-body{
+		width: 80%;
+	}	
+}
+@media(max-width: 500px){
+	.main-body{
+		width: 90%;
+	}	
+}

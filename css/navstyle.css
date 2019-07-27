@@ -1,0 +1,90 @@
+header{
+	display: flex;
+}
+/*Collapse Button*/
+.nav-btn{
+	display: flex;
+	width: 95px;	
+	height: 81px;
+	background-color: #fff;
+}
+.open-btn,.close-btn{
+	padding-top: 5px;
+	height: 50px;
+	width: 50px;
+	margin-top: 15px;
+	cursor: pointer;
+	transition: all 0.5s linear;
+	margin-left: 35px;
+}
+.bar{
+	height: 5px;
+	background-color: #000;
+	margin-top: 5px;
+	margin-bottom: 7px;
+}
+.close-btn{
+	position: relative;
+	display: none;
+}
+.close-btn:before, .close-btn:after {
+  position: absolute;
+  content: ' ';
+  margin-left: 20px;
+  height: 45px;
+  width: 2px;
+  background-color: #000;
+}
+.close-btn:before {
+  transform: rotate(45deg);
+}
+.close-btn:after {
+  transform: rotate(-45deg);
+}
+/*End of Collapse Button*/
+.logo{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff;
+}
+@media(min-width: 767px){
+	.logo>img{
+		margin-left: -50px;
+	}	
+}
+
+.admin-nav{
+	padding-top: 10px;
+	background-color: #191b1b;
+	position: fixed;
+	height: 100%;
+	width: 250px;
+	margin-left: -250px;
+	transition: all 0.3s linear;
+	z-index: 1;
+}
+.nav-link{
+	border-bottom: 1px solid grey;
+	position: relative;
+	color: #fff;
+	transition: all 0.2s linear;
+}
+.nav-link:hover{
+	color: #ccd7e2;
+}
+.nav-link:after{
+	position: absolute;
+	font-family: FontAwesome;
+	right: 10px;
+}
+#homelink:after{
+	content: "\f015";
+}	
+#search-customer:after{
+	content: "\f002";
+}	
+#logoutlink:after{
+	content: "\f13e";
+}
